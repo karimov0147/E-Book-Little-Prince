@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BuBook" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >#03A9F4</item>
+        <item name="bgColor">#03A9F4</item>
+        <item name="image_first">@drawable/back_night</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+        <item name="image_second">@drawable/back_two_night</item>
+        <item name="textColor">#FFFFFF</item>
+        <item name="itemBgColor">#1A03A9F4</item>
+        <item name="infoScreenBg">#000000</item>
+        <!-- Customize your theme here. -->
+        <item name="dialogColor">#01364E</item>
+        <item name="themeIcon">@drawable/ic_baseline_moon</item>
+
+    </style>
+
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+</resources>

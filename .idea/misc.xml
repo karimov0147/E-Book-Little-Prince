@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/BuBook/app/src/main/res/drawable/btn_bacground.xml" value="0.1795" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BuBook/app/src/main/res/drawable/button_background.xml" value="0.1795" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BuBook/app/src/main/res/drawable/ic_baseline_keyboard_arrow_left_24.xml" value="0.1105" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BuBook/app/src/main/res/drawable/ic_group_5.xml" value="0.1105" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BuBook/app/src/main/res/drawable/item_background.xml" value="0.1795" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BuBook/app/src/main/res/layout/activity_main.xml" value="0.2421875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BuBook/app/src/main/res/layout/custom_dialog.xml" value="0.2421875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BuBook/app/src/main/res/layout/fragment_about__screen.xml" value="0.2421875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BuBook/app/src/main/res/layout/item.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BuBook/app/src/main/res/layout/screen_about.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BuBook/app/src/main/res/layout/screen_enter.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BuBook/app/src/main/res/layout/screen_info.xml" value="0.2421875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BuBook/app/src/main/res/layout/screen_parts.xml" value="0.2421875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BuBook/app/src/main/res/menu/menu.xml" value="0.2421875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BuBook/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1105" />
+        <entry key="app/src/main/res/drawable/btn_bacground.xml" value="0.16" />
+        <entry key="app/src/main/res/drawable/button_background.xml" value="0.16" />
+        <entry key="app/src/main/res/drawable/item_background.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/custom_dialog.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/item.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/screen_about.xml" value="0.2671875" />
+        <entry key="app/src/main/res/layout/screen_enter.xml" value="0.2671875" />
+        <entry key="app/src/main/res/layout/screen_info.xml" value="0.2671875" />
+        <entry key="app/src/main/res/layout/screen_parts.xml" value="0.2671875" />
+        <entry key="app/src/main/res/layout/screen_splash.xml" value="0.2671875" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.26666666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

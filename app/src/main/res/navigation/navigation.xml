@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/enter_Screen"
+        android:name="com.example.bubook.screens.EnterScreen"
+        android:label="screen_enter"
+        tools:layout="@layout/screen_enter" >
+        <action
+            android:id="@+id/action_enter_Screen_to_parts_Screen"
+            app:destination="@id/parts_Screen" />
+        <action
+            android:id="@+id/action_enter_Screen_to_about_Screen"
+            app:destination="@id/about_Screen" />
+    </fragment>
+    <fragment
+        android:id="@+id/parts_Screen"
+        android:name="com.example.bubook.screens.PartsScreen"
+        android:label="screen_parts"
+        tools:layout="@layout/screen_parts" >
+        <action
+            android:id="@+id/action_parts_Screen_to_info_Screen"
+            app:destination="@id/info_Screen" />
+    </fragment>
+    <fragment
+        android:id="@+id/info_Screen"
+        android:name="com.example.bubook.screens.InfoScreen"
+        android:label="screen_info"
+        tools:layout="@layout/screen_info" />
+    <fragment
+        android:id="@+id/about_Screen"
+        android:name="com.example.bubook.screens.AboutScreen"
+        android:label="screen_about"
+        tools:layout="@layout/screen_about" />
+    <fragment
+        tools:layout="@layout/screen_splash"
+        android:id="@+id/splashScreen"
+        android:name="com.example.bubook.screens.SplashScreen"
+        android:label="SplashScreen" >
+        <action
+            android:id="@+id/action_splashScreen_to_enter_Screen"
+            app:destination="@id/enter_Screen"
+            app:popUpTo="@id/splashScreen"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
